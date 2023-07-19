@@ -1,8 +1,11 @@
 import express, { Request, Response } from "express";
+import cors from "cors";
 import countries from "./resource/countries.json";
 import { CountryFullInfo, CountryItem } from "./types";
 
 const app = express();
+app.use(cors());
+
 const port = process.env.PORT || 8080;
 
 function convertCountryItem(countries: CountryFullInfo[]) {

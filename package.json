@@ -27,9 +27,11 @@
   "homepage": "https://github.com/winterlood/naras-api#readme",
   "dependencies": {
     "@types/node": "^20.4.2",
+    "cors": "^2.8.5",
     "express": "^4.18.2"
   },
   "devDependencies": {
+    "@types/cors": "^2.8.13",
     "@types/express": "^4.17.17",
     "nodemon": "^3.0.1",
     "pre-commit": "^1.2.2",
