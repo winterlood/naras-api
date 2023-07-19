@@ -2,8 +2,6 @@ import express, { Request, Response } from "express";
 import cors from "cors";
 import countries from "./resource/countries.json";
 import { CountryFullInfo, CountryItem } from "./types";
-import * as dotenv from "dotenv";
-dotenv.config();
 
 const app = express();
 app.use(cors());
@@ -32,18 +30,6 @@ function convertCountryItem(countries: CountryFullInfo[]) {
     };
   });
 }
-
-// Validator
-app.use(function (req, res, next) {
-  const authorization = req.headers.authorization;
-  if (authorization === process.env.SECRET_KEY) {
-    next();
-  } else {
-    return res
-      .status(403)
-      .send("Authorization 키를 확인하세요");
-  }
-});
 
 app.get("/", (_req: Request, res: Response) => {
   return res.send("THIS IS NARAS API");
