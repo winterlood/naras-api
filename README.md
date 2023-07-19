@@ -21,7 +21,7 @@ SECRET KEY는 강의를 구매하시면 확인할 수 있습니다.
 등록되어 있는 모든 국가 데이터를 반환합니다.
 
 ```
-/all
+https://naras-api.vercel.app/all
 ```
 
 <details>
@@ -50,7 +50,7 @@ SECRET KEY는 강의를 구매하시면 확인할 수 있습니다.
 국가 이름을 기준으로 검색 결과를 반환합니다.
 
 ```
-/search?q={query}
+https://naras-api.vercel.app/search?q={query}
 ```
 
 <details>
@@ -79,7 +79,7 @@ SECRET KEY는 강의를 구매하시면 확인할 수 있습니다.
 일치하는 코드를 갖는 국가의 자세한 정보를 반환합니다.
 
 ```
-/code/{code}
+https://naras-api.vercel.app/code/{code}
 ```
 
 <details>
