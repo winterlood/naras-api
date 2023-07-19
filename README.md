@@ -2,7 +2,7 @@
 
 UDEMY 프리미엄 컨텐츠로 출시 예정인 React & Next 강의의 중간 프로젝트 **NARAS**에서 사용하는 OPEN API 입니다.
 
-본 API에서 제공하는 모든 데이터는 https://restcountries.com/ 에서 제공하는 데이터를 기반으로 제작되었습니다.
+본 API에서 제공하는 모든 데이터는 [https://restcountries.com/](https://restcountries.com/) 에서 제공하는 데이터를 기반으로 제작되었습니다.
 
 ## 사용 방법
 
