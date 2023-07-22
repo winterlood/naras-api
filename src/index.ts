@@ -11,16 +11,16 @@ app.use(cors());
 const port = process.env.PORT || 8080;
 
 // Validator
-app.use(function (req, res, next) {
-  const authorization = req.headers.authorization;
-  if (authorization === process.env.SECRET_KEY) {
-    next();
-  } else {
-    return res
-      .status(403)
-      .send("Authorization 키를 확인하세요");
-  }
-});
+// app.use(function (req, res, next) {
+//   const authorization = req.headers.authorization;
+//   if (authorization === process.env.SECRET_KEY) {
+//     next();
+//   } else {
+//     return res
+//       .status(403)
+//       .send("Authorization 키를 확인하세요");
+//   }
+// });
 
 function convertCountryItem(countries: CountryFullInfo[]) {
   return countries.map((country) => {

@@ -4,14 +4,6 @@ UDEMY 프리미엄 컨텐츠로 출시 예정인 React & Next 강의의 중간 �
 
 본 API에서 제공하는 모든 데이터는 [https://restcountries.com/](https://restcountries.com/) 에서 제공하는 데이터를 기반으로 제작되었습니다.
 
-## 사용 방법
-
-NARAS API는 SECRET KEY를 발급 받은 대상에 한해 사용 가능하도록 개발되었습니다
-
-따라서 모든 요청시 발급받은 SECRET KEY를 Request Header의 Authorization 필드에 포함해야 합니다.
-
-SECRET KEY는 강의를 구매하시면 확인할 수 있습니다.
-
 ## API Endpoints
 
 ### All
